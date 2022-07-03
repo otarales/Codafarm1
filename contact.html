@@ -70,7 +70,7 @@
           <form  method="post" data-netlify="true">
             <label for="fullname">Full Name</label>
             <br />
-            <input type="text" name="fullname" placeholder="Your name.." />
+            <input type="text" name="fullname" placeholder="Your name.." required />
             <br />
 
             <label for="company">Company/Organisation</label><br />
@@ -78,15 +78,16 @@
               type="text"
               name="company"
               placeholder="Your organisation name.."
+                   required
             />
             <br />
             <label for="email">Email</label>
             <br />
-            <input type="text" name="email" placeholder="Your email.." />
+            <input type="text" name="email" placeholder="Your email.." required />
             <br />
             <label for="company">Phone</label>
             <br />
-            <input type="text" name="phone" placeholder="Your phone number.." />
+            <input type="text" name="phone" placeholder="Your phone number.." required />
 
             <br />
 
@@ -106,7 +107,7 @@
               type="text"
               maxlength="5"
               placeholder="Image text.."
-            />
+            required/>
             <br /><br />
             <input type="submit" value="Submit" />
           </form>
